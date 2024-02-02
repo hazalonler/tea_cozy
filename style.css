@@ -1,0 +1,126 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    margin-top: 0;
+}
+
+.header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.link-container {
+    display: inline-flex;
+    justify-content: space-around;
+    min-width: 500px;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgb(140, 63, 63);
+}
+
+.mission {
+    background-image: url("/images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 70px;
+    left: calc(50vw - 600px);
+}
+
+.mission-text {
+    width: 1200px;
+    position: absolute;
+    top: calc(350px - 65px);
+}
+
+.monthly_tea {
+    position: relative;
+    top: 160px;
+    left: calc(50vw - 500px);
+    width: 1000px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    padding: 15px;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    margin-bottom: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    background-image: url("/images/img-locations-background.jpg");
+    background-position: 0 23%;
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    top: 200px;
+    left: calc(50vw - 600px);
+}
+
+.locations h2 {
+    position: relative;
+    top: 100px;
+    background-color: transparent;
+}
+
+.adresses {
+    display: inline-flex;
+    position: relative;
+    top: 100px;
+}
+
+.adress {
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    position: relative;
+    top: 210px;
+    height: 200px;
+}
+
+.copyright {
+    font-size: 12px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    text-align: left;
+}
